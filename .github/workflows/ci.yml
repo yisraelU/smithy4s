@@ -57,7 +57,7 @@ jobs:
           extraKey: ${{ env.BUILD_KEY }}
 
       - name: Setup Java and Scala
-        uses: olafurpg/setup-scala@v13
+        uses: olafurpg/setup-scala@v14
         with:
           java-version: temurin@17
 
@@ -115,7 +115,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Java and Scala
-        uses: olafurpg/setup-scala@v13
+        uses: olafurpg/setup-scala@v14
         with:
           java-version: temurin@17
 
