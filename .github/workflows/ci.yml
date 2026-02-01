@@ -58,7 +58,7 @@ jobs:
           extraKey: ${{ env.BUILD_KEY }}
 
       - name: Setup Java and Scala
-        uses: coursier/setup-action@v1
+        uses: coursier/setup-action@v2
         with:
           jvm: temurin:1.17
           apps: sbt scala-cli
@@ -119,7 +119,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Java and Scala
-        uses: coursier/setup-action@v1
+        uses: coursier/setup-action@v2
         with:
           jvm: temurin:1.17
           apps: sbt
@@ -159,7 +159,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Java and Scala
-        uses: coursier/setup-action@v1
+        uses: coursier/setup-action@v2
         with:
           jvm: temurin:1.17
           apps: sbt
